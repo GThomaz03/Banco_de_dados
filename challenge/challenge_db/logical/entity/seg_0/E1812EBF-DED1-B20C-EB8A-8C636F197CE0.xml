@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E1812EBF-DED1-B20C-EB8A-8C636F197CE0" name="T_HC_OFICINA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:08:02 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_oficina" id="139DE597-9D83-668A-E293-1F5D1D69145A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:08:16 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_oficina" id="F97ACDF0-7F3D-8784-F5CB-DEAB879F5FFE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:08:29 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ct_oficina" id="B0D2637F-E730-ADBF-2FDE-63CEDB7D675E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:09:27 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="24D38E87-D9F5-4A58-3F2B-F6612519691D" name="T_HC_OFICINA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:08:27 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>139DE597-9D83-668A-E293-1F5D1D69145A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

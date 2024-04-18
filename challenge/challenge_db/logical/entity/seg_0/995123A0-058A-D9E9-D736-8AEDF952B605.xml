@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="995123A0-058A-D9E9-D736-8AEDF952B605" name="T_HC_ORCAMENTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 13:55:17 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_orcamento" id="9409344A-D897-5FD3-A432-A19C9284209C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 13:55:56 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="B2F03DAA-35A1-1CD6-34DD-CDC543761AE1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:17:52 UTC</createdTime>
+<generatorID>D6D2A5A2-9ADE-9D87-E7E7-826E5BC25AA7</generatorID>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<referedAttribute>605200C9-0DF6-45EB-4A61-2876702EEEEE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_orcamento" id="AEBB73C8-2F22-0B60-909B-EFF4B3C45E33">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 13:57:02 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_orcamento" id="A42B31D2-96A4-FEA4-666E-8257402DC0AA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 13:57:57 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total" id="5CAC8CB8-26AD-B9A8-AF38-FBF47D7B48E8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 13:58:27 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3F580FC-2D37-D761-18BA-18DD87096DA3" name="T_HC_PEDIDO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 13:56:03 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9409344A-D897-5FD3-A432-A19C9284209C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
