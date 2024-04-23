@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLIENTE_ORCAMENTO" directorySegmentName="seg_0" id="D6D2A5A2-9ADE-9D87-E7E7-826E5BC25AA7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-18 14:17:52 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<sourcePk>0B80DBBF-9519-2865-1AB0-E78B404F023A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD9040C3-F193-4462-F7D8-AD0B79B41E94</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>995123A0-058A-D9E9-D736-8AEDF952B605</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
