@@ -41,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_oficina" id="AC0103B6-DF78-6743-F800-55874C9C3C8D">
 <createdBy>Gabriel</createdBy>
@@ -56,7 +56,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_cliente" id="C19062D7-4D30-A159-5830-E92EACF1358F">
 <createdBy>Gabriel</createdBy>
@@ -71,9 +71,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_logardouro" id="D6166131-77F7-7D1A-916C-EB7ADA26D327">
+<Attribute name="nm_logradouro" id="D6166131-77F7-7D1A-916C-EB7ADA26D327">
 <createdBy>Gabriel</createdBy>
 <createdTime>2024-04-21 22:31:33 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
