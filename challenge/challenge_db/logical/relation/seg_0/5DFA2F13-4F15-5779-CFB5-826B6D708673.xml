@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OFICINA_ENDERECO" directorySegmentName="seg_0" id="5DFA2F13-4F15-5779-CFB5-826B6D708673">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:09:36 UTC</createdTime>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<sourcePk>24D38E87-D9F5-4A58-3F2B-F6612519691D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1812EBF-DED1-B20C-EB8A-8C636F197CE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD65402A-FB10-6CFB-9384-7F18402C2BB7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

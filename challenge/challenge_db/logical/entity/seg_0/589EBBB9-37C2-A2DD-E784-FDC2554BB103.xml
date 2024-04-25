@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="589EBBB9-37C2-A2DD-E784-FDC2554BB103" name="T_HC_TELEFONE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="589EBBB9-37C2-A2DD-E784-FDC2554BB103" name="T_HC_TELEFONE_CLIENTE">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2024-04-18 14:30:43 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
@@ -24,36 +24,6 @@
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
 </engineerTo>
 <referedAttribute>605200C9-0DF6-45EB-4A61-2876702EEEEE</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_oficina" id="57CC739A-9EE2-76A3-5611-DC7E902F015D">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2024-04-18 14:35:02 UTC</createdTime>
-<generatorID>93EBB709-9815-9BC5-F0EF-B401A858DC10</generatorID>
-<ownerDesignName>challenge_db</ownerDesignName>
-<engineerTo>
-<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
-</engineerTo>
-<referedAttribute>139DE597-9D83-668A-E293-1F5D1D69145A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_fornecedor" id="8572C416-0CD9-18D0-FB44-63F26F7D249A">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2024-04-18 14:35:17 UTC</createdTime>
-<generatorID>15C62E02-BD9D-ED7B-4349-6D2001DF78BD</generatorID>
-<ownerDesignName>challenge_db</ownerDesignName>
-<engineerTo>
-<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
-</engineerTo>
-<referedAttribute>98CC67C6-A18A-87FA-29D1-0B29DF6D7BEC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -110,10 +80,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>046DB00E-80FF-4118-33C9-91BB6133EBE2</attributeRef>
 <attributeRef>777BAC7F-B980-2BB5-29E6-58360CCF7D35</attributeRef>
-<attributeRef>57CC739A-9EE2-76A3-5611-DC7E902F015D</attributeRef>
-<attributeRef>8572C416-0CD9-18D0-FB44-63F26F7D249A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

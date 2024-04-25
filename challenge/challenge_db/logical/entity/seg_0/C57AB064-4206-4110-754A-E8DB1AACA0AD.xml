@@ -28,36 +28,6 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_fornecedor" id="EFEB2CC0-BB7C-B505-6E32-AE74B7A05866">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2024-04-18 14:41:36 UTC</createdTime>
-<generatorID>12D8845C-9C3B-DA26-9B59-8F4740F7A3BC</generatorID>
-<ownerDesignName>challenge_db</ownerDesignName>
-<engineerTo>
-<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
-</engineerTo>
-<referedAttribute>98CC67C6-A18A-87FA-29D1-0B29DF6D7BEC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_oficina" id="ADE2A600-F371-FE85-1FD3-6D280F46784D">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2024-04-18 14:41:53 UTC</createdTime>
-<generatorID>3E096FDC-AF9B-4FB4-C0F5-459A404E3D8D</generatorID>
-<ownerDesignName>challenge_db</ownerDesignName>
-<engineerTo>
-<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
-</engineerTo>
-<referedAttribute>139DE597-9D83-668A-E293-1F5D1D69145A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_cliente" id="8A4D37D3-281A-1DC9-E543-FE7CFF556F06">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2024-04-18 14:42:10 UTC</createdTime>
@@ -71,7 +41,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>7</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -85,8 +55,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>F1601953-C06E-BACA-95D4-715CB3703346</attributeRef>
-<attributeRef>EFEB2CC0-BB7C-B505-6E32-AE74B7A05866</attributeRef>
-<attributeRef>ADE2A600-F371-FE85-1FD3-6D280F46784D</attributeRef>
 <attributeRef>8A4D37D3-281A-1DC9-E543-FE7CFF556F06</attributeRef>
 </usedAttributes>
 </identifier>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89CA9CA2-F430-5010-B6CA-11D6B1FBB9D9" name="T_HC_ENDERECO_FORNECEDOR">
-<createdBy>Gabriel</createdBy>
-<createdTime>2024-04-21 22:30:45 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C28923D2-EA11-FE22-24DE-65D3340285AE" name="T_HC_ENDERECO_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:50:58 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
@@ -15,24 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_fornecedor" id="A76D65AC-C48A-5FE1-2B72-6F7BAA52F609">
+<Attribute name="id_cliente" id="ACBD2023-636C-883E-C61B-1F215727359D">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2024-04-25 14:10:15 UTC</createdTime>
-<generatorID>F23F128E-8E9B-7F85-9838-062DC405F850</generatorID>
+<createdTime>2024-04-25 14:12:55 UTC</createdTime>
+<generatorID>C9152C40-B9AD-5CED-5441-F06F7F4D50D9</generatorID>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
 </engineerTo>
-<referedAttribute>98CC67C6-A18A-87FA-29D1-0B29DF6D7BEC</referedAttribute>
+<referedAttribute>605200C9-0DF6-45EB-4A61-2876702EEEEE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>7</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_logradouro" id="D6166131-77F7-7D1A-916C-EB7ADA26D327">
-<createdBy>Gabriel</createdBy>
-<createdTime>2024-04-21 22:31:33 UTC</createdTime>
+<Attribute name="nm_logradouro" id="BBA3CE3D-ACAC-0878-6E64-4998F60D0153">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:50:58 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
@@ -43,9 +43,9 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_endereco" id="1B20D277-89F6-0BBB-7B96-A0B5220E2CB5">
-<createdBy>Gabriel</createdBy>
-<createdTime>2024-04-21 22:35:45 UTC</createdTime>
+<Attribute name="nr_endereco" id="A83E67F1-81B3-6F55-3BFA-7EF2B9A57E49">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:50:58 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
@@ -57,9 +57,9 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dc_complemento" id="9505B094-CAB2-B4D5-103E-750AC63310C5">
-<createdBy>Gabriel</createdBy>
-<createdTime>2024-04-21 22:36:08 UTC</createdTime>
+<Attribute name="dc_complemento" id="8C8FA320-FBFC-598B-8241-7954923E61F9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:50:58 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
@@ -71,9 +71,9 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dc_bairro" id="192FE812-3770-F2F4-AE8B-EF7FE42ACCCD">
-<createdBy>Gabriel</createdBy>
-<createdTime>2024-04-21 22:36:34 UTC</createdTime>
+<Attribute name="dc_bairro" id="75BECAC2-5B9C-E0F8-7194-A2CC76D5BE78">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:50:58 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
@@ -84,9 +84,9 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dc_cidade" id="B3622D3A-1E11-94C4-D1BE-7210728652EE">
-<createdBy>Gabriel</createdBy>
-<createdTime>2024-04-21 22:36:55 UTC</createdTime>
+<Attribute name="dc_cidade" id="1E8E26E6-C2B0-8D2A-4E06-88042FB82DD5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:50:58 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
@@ -97,9 +97,9 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dc_estado" id="3C75EB39-834D-2CA5-2E1F-819D1F088A09">
-<createdBy>Gabriel</createdBy>
-<createdTime>2024-04-21 22:37:10 UTC</createdTime>
+<Attribute name="dc_estado" id="7915BAA7-B84C-8342-E648-E2970BD8EA83">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:50:58 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
@@ -110,9 +110,9 @@
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nr_cep" id="C0DDF5C9-6EB8-5FFE-5975-19A44153948B">
-<createdBy>Gabriel</createdBy>
-<createdTime>2024-04-21 22:37:31 UTC</createdTime>
+<Attribute name="nr_cep" id="6631F4B1-9463-04FE-5962-B6194E7845EA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:50:58 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
@@ -125,16 +125,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9C148C28-BCC2-945B-53A0-CBF64BEDE1CC" name="T_HC_ENDERECO PK">
-<createdBy>Gabriel</createdBy>
-<createdTime>2024-04-21 22:31:31 UTC</createdTime>
+<identifier id="22E4CC55-087F-B0D8-9FFE-393A10425EFC" name="T_HC_ENDERECO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:50:58 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>
 <engineerTo>
 <item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A76D65AC-C48A-5FE1-2B72-6F7BAA52F609</attributeRef>
+<attributeRef>ACBD2023-636C-883E-C61B-1F215727359D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

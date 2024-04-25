@@ -41,7 +41,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ct_oficina" id="B0D2637F-E730-ADBF-2FDE-63CEDB7D675E">
+<Attribute name="dc_email_oficina" id="B0D2637F-E730-ADBF-2FDE-63CEDB7D675E">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2024-04-18 14:09:27 UTC</createdTime>
 <ownerDesignName>challenge_db</ownerDesignName>

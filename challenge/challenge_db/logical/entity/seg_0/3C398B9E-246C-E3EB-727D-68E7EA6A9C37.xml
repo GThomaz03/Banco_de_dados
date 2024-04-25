@@ -68,6 +68,21 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_fornecedor" id="446DF908-93AB-D6C4-12EA-6E314A8C288A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:31:39 UTC</createdTime>
+<generatorID>4AF7208A-872C-E940-04AC-C87F8C9E76DF</generatorID>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<referedAttribute>98CC67C6-A18A-87FA-29D1-0B29DF6D7BEC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BCDF9B5C-821E-0561-43C8-58B3CB005B39" name="T_HC_CLINTE PK">

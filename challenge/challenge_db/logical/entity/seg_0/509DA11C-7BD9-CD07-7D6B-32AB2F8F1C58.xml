@@ -68,6 +68,21 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_oficina" id="627B5561-6791-186C-E9DF-8E9F5DE473AA">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:32:17 UTC</createdTime>
+<generatorID>326EE52C-AF9A-6F24-1A25-9E5C1F023E21</generatorID>
+<ownerDesignName>challenge_db</ownerDesignName>
+<engineerTo>
+<item key="517C00D7-493B-58F8-998B-067E6AEE0494" value="true"/>
+</engineerTo>
+<referedAttribute>139DE597-9D83-668A-E293-1F5D1D69145A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9CAB8472-E23A-ACD2-F29B-D2030E9AEBAC" name="T_HC_SERVICO PK">
